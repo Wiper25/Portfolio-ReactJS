@@ -1,0 +1,63 @@
+.portfolio {
+  display: flex;
+  color: white;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.portfolio_block {
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+.portfolio_card {
+  border: 1px solid white;
+  width: 270px;
+  height: 80vh;
+  text-align: center;
+  color: white;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.344);
+}
+.portfolio_card:hover {
+  -webkit-box-shadow: -2px -2px 26px -3px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -2px -2px 26px -3px rgba(255, 255, 255, 1);
+  box-shadow: -2px -2px 26px -3px rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.portfolio_card p {
+  margin: 10px;
+}
+.blockSlide {
+  display: -webkit-inline-box;
+  overflow: hidden;
+  margin-top: 2%;
+  transform: translateX(10px);
+  transition: all 0.5s;
+}
+.leftBtn {
+  font-size: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  padding-bottom: 10px;
+}
+.leftBtn:hover {
+  background-color: rgba(0, 0, 0, 0.575);
+  cursor: pointer;
+}
+.rightBtn {
+  font-size: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  padding-bottom: 10px;
+}
+.rightBtn:hover {
+  background-color: rgba(0, 0, 0, 0.575);
+  cursor: pointer;
+}
