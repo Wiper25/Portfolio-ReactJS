@@ -27,7 +27,7 @@ ul {
   list-style-type: none;
   align-items: center;
 }
-.btn_wrapper_buy_now_block {
+.btn_wrapper_order_now_block {
   background-color: white;
   width: 110px;
   height: 40px;
@@ -37,11 +37,11 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.btn_wrapper_buy_now_block a {
+.btn_wrapper_order_now_block a {
   text-decoration: none;
   color: black;
 }
-.btn_wrapper_buy_now_block a:hover {
+.btn_wrapper_order_now_block a:hover {
   color: #7a4f49;
 }
 ul a {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
-import Gallery from './components/Gallery'
+import Price from './components/Price'
 import Pages from './components/Pages'
 import Blog from './components/Blog'
 import Features from './components/Features'
@@ -60,27 +60,27 @@ function App() {
             <ul>
               <a href='/' className="nav_wrapper_home_1">Home</a>
               <a href='/portfolio' className="nav_wrapper_home_2">Portfolio</a>
-              <a href='/gallery' className="nav_wrapper_home_3">Gallery</a>
-              <a href='/pages' className="nav_wrapper_home_4">Pages</a>
+              <a href='/price' className="nav_wrapper_home_3">Price</a>
+              {/* <a href='/pages' className="nav_wrapper_home_4">Pages</a> */}
               <a href='/blog' className="nav_wrapper_home_5">Blog</a>
-              <a href='/features' className="nav_wrapper_home_6">Features</a>
-              <a href='/elements' className="nav_wrapper_home_7">Elements</a>
+              {/* <a href='/features' className="nav_wrapper_home_6">Features</a> */}
+              {/* <a href='/elements' className="nav_wrapper_home_7">Elements</a> */}
               <a href='/contact' className="nav_wrapper_home_8">Contact</a>
             </ul>
             {/* <MobileMenu className="MobileMenu"/> */}
-            <div className='btn_wrapper_buy_now_block'>
-              <a href='/' className="btn_wrapper_buy_now">Buy Now</a>
+            <div className='btn_wrapper_order_now_block'>
+              <a href='/price' className="btn_wrapper_order_now">Order Now</a>
             </div>
           </div>
           <Router>
             <Switch>
               <Route exact path="/"  render={() => <Home props={homeComponent} />}/>
               <Route path="/portfolio"   render={() => <Portfolio props={portfolioComponent} />}/>
-              <Route path="/gallery" component={Gallery}></Route>
-              <Route path="/pages" component={Pages}></Route>
+              <Route path="/price" component={Price}></Route>
+              {/* <Route path="/pages" component={Pages}></Route> */}
               <Route path="/blog" component={Blog}></Route>
-              <Route path="/features" component={Features}></Route>
-              <Route path="/elements" component={Elements}></Route>
+              {/* <Route path="/features" component={Features}></Route> */}
+              {/* <Route path="/elements" component={Elements}></Route> */}
               <Route path="/contact" component={Contact}></Route>
             </Switch>
           </Router>

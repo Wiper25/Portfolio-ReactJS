@@ -1,8 +1,8 @@
-function Gallery() {
+function Price() {
     return (
         <>
         </>
     )
 }
 
-export default Gallery
+export default Price
